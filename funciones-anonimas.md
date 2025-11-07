@@ -4,9 +4,9 @@
 
   Las funciones anónimas son funciones que no tienen nombre. Se utilizan generalmente como argumentos para otras funciones o para asignarlas a variables.
 
-  Mira la diferencia entre una funcion tradicional y una funcion anonima:
+  Mira la diferencia entre una función tradicional y una función anónima:
 
-  Una funcion tradicional:
+  Una función tradicional:
 
   ```js
   function suma(a, b) {
@@ -14,7 +14,7 @@
   };
   ```
 
-  Una funcion anonima:
+  Una función anónima:
 
   ```js
   function(a, b) {
@@ -52,7 +52,7 @@
   sumar(2, 3);
   ```
 
-  Cómo sabemos el resultado será 5. Porque la función toma los valores 2 y 3 como argumentos para a y b respectivamente, y devuelve su suma.
+  Como sabemos, el resultado será 5. Porque la función toma los valores 2 y 3 como argumentos para a y b respectivamente, y devuelve su suma.
   
   ___
 
@@ -69,7 +69,7 @@
   calculadora.suma(2, 3); // 5
   ```
 
- > Vuelve a ver el ejemplo detenidamente.
+  > Vuelve a ver el ejemplo detenidamente.
   > ¿Qué es calculadora y qué es suma?
 
   calculadora es una variable que contiene un objeto con una propiedad llamada suma. Y suma es una propiedad del objeto que contiene una función anónima. Podemos llamar a la función a través de la propiedad del objeto:
@@ -202,4 +202,4 @@ Crea una función anónima que sume dos números y retorne el resultado.
 Crea una función anónima que reste dos números y retorne el resultado.
 
 #### c)
-Crea una variable que contenga objeto que tenga una propiedad llamada "saludos". "saludos" debe ser un objeto que tenga varias propiedades, cada una de ellas con una función anónima que retorne un saludo diferente. Cada saludo es un string diferente, como: "hola", "hello", "buenos dias", "buenas tardes", "buenas noches", etc.
+Crea una variable que contenga un objeto que tenga una propiedad llamada "saludos". "saludos" debe ser un objeto que tenga varias propiedades, cada una de ellas con una función anónima que retorne un saludo diferente. Cada saludo es un string diferente, como: "hola", "hello", "buenos días", "buenas tardes", "buenas noches", etc.
